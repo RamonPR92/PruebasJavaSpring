@@ -1,6 +1,6 @@
-package com.ramon.app.models;
+package com.ramon.app.junitCurso.models;
 
-import com.ramon.app.exceptions.DineroInsuficienteException;
+import com.ramon.app.junitCurso.exceptions.DineroInsuficienteException;
 
 import java.math.BigDecimal;
 
@@ -38,7 +38,7 @@ public class Cuenta {
         this.banco = banco;
     }
 
-    public void debito(BigDecimal monto) throws DineroInsuficienteException{
+    public void debito(BigDecimal monto) throws DineroInsuficienteException {
         if(monto.doubleValue() > saldo.doubleValue())
             throw new DineroInsuficienteException("Dinero Insuficiente");
 

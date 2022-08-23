@@ -1,6 +1,6 @@
-package com.ramon.app.models;
+package com.ramon.app.junitCurso.models;
 
-import com.ramon.app.exceptions.DineroInsuficienteException;
+import com.ramon.app.junitCurso.exceptions.DineroInsuficienteException;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

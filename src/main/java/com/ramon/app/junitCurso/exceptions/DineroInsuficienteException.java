@@ -1,4 +1,4 @@
-package com.ramon.app.exceptions;
+package com.ramon.app.junitCurso.exceptions;
 
 public class DineroInsuficienteException extends Exception{
     public DineroInsuficienteException() {

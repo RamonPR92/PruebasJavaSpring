@@ -1,6 +1,8 @@
 package com.ramon.app.models;
 
-import com.ramon.app.exceptions.DineroInsuficienteException;
+import com.ramon.app.junitCurso.exceptions.DineroInsuficienteException;
+import com.ramon.app.junitCurso.models.Banco;
+import com.ramon.app.junitCurso.models.Cuenta;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.condition.*;
 import org.junit.jupiter.params.ParameterizedTest;
